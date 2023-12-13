@@ -49,6 +49,4 @@ with open('src/12/input.txt') as file:
             streaks = tuple(map(int, streaks.split(','))) * 5
             arrangements = countArrangements(record, streaks)
             total += arrangements
-            print(total, '+=', arrangements)
-    print('---')
     print(total)
